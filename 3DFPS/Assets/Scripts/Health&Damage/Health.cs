@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.AI;
 
 /// <summary>
 /// This class handles the health state of a game object.
@@ -37,6 +38,8 @@ public class Health : MonoBehaviour
     [Tooltip("The amount of time to wait before respawning")]
     public float respawnWaitTime = 3f;
 
+    Animator animator;
+    NavMeshAgent agent;
     /// <summary>
     /// Description:
     /// Standard Unity function called once before the first Update call
@@ -47,6 +50,8 @@ public class Health : MonoBehaviour
     /// </summary>
     void Start()
     {
+        agent = GetComponent<NavMeshAgent>();
+        animator = GetComponent<Animator>();
         SetRespawnPoint(transform.position);
     }
 
@@ -310,7 +315,11 @@ public class Health : MonoBehaviour
                 }
                 else
                 {
-                    Destructable.DoDestroy(this.gameObject);
+                    
+                    agent.speed = 0;
+                    animator.SetTrigger("isDead");
+                    gameObject.GetComponent<CapsuleCollider>().enabled = false;
+                    Destructable.Destroy(this.gameObject, 20);
                 }
                 GameOver();
             }
@@ -325,7 +334,10 @@ public class Health : MonoBehaviour
             }
             else
             {
-                Destructable.DoDestroy(this.gameObject);
+                agent.speed = 0;
+                animator.SetTrigger("isDead");
+                gameObject.GetComponent<CapsuleCollider>().enabled = false;
+                Destructable.Destroy(this.gameObject, 20);
             }
         }      
     }
