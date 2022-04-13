@@ -603,7 +603,7 @@ NavMeshAgent:
   m_AutoBraking: 1
   m_AutoRepath: 1
   m_Height: 2
-  m_BaseOffset: 0
+  m_BaseOffset: -0.1
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
 --- !u!114 &94801670
@@ -672,7 +672,7 @@ CapsuleCollider:
   m_Radius: 1
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 1, z: 0}
+  m_Center: {x: 0, y: 1.2, z: 0}
 --- !u!54 &94801673
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1330,7 +1330,7 @@ NavMeshAgent:
   m_AutoBraking: 1
   m_AutoRepath: 1
   m_Height: 2
-  m_BaseOffset: 0
+  m_BaseOffset: -0.1
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
 --- !u!114 &280034389
@@ -1399,7 +1399,7 @@ CapsuleCollider:
   m_Radius: 1
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 1, z: 0}
+  m_Center: {x: 0, y: 1.2, z: 0}
 --- !u!54 &280034392
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1896,7 +1896,7 @@ NavMeshAgent:
   m_AutoBraking: 1
   m_AutoRepath: 1
   m_Height: 2
-  m_BaseOffset: 0
+  m_BaseOffset: -0.1
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
 --- !u!114 &531338281
@@ -1965,7 +1965,7 @@ CapsuleCollider:
   m_Radius: 1
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 1, z: 0}
+  m_Center: {x: 0, y: 1.2, z: 0}
 --- !u!54 &531338284
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2040,7 +2040,7 @@ NavMeshAgent:
   m_AutoBraking: 1
   m_AutoRepath: 1
   m_Height: 2
-  m_BaseOffset: 0
+  m_BaseOffset: -0.1
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
 --- !u!95 &716944663
@@ -2075,7 +2075,7 @@ CapsuleCollider:
   m_Radius: 1
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 1, z: 0}
+  m_Center: {x: 0, y: 1.2, z: 0}
 --- !u!114 &716944665
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2195,7 +2195,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!154 &748951019
 TerrainCollider:
   m_ObjectHideFlags: 0
@@ -2734,7 +2734,7 @@ NavMeshAgent:
   m_AutoBraking: 1
   m_AutoRepath: 1
   m_Height: 2
-  m_BaseOffset: 0
+  m_BaseOffset: -0.1
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
 --- !u!114 &938293701
@@ -2803,7 +2803,7 @@ CapsuleCollider:
   m_Radius: 1
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 1, z: 0}
+  m_Center: {x: 0, y: 1.2, z: 0}
 --- !u!54 &938293704
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3411,7 +3411,7 @@ NavMeshAgent:
   m_AutoBraking: 1
   m_AutoRepath: 1
   m_Height: 2
-  m_BaseOffset: 0
+  m_BaseOffset: -0.1
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
 --- !u!114 &1159801341
@@ -3480,7 +3480,7 @@ CapsuleCollider:
   m_Radius: 1
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 1, z: 0}
+  m_Center: {x: 0, y: 1.2, z: 0}
 --- !u!54 &1159801344
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4019,7 +4019,7 @@ NavMeshAgent:
   m_AutoBraking: 1
   m_AutoRepath: 1
   m_Height: 2
-  m_BaseOffset: 0
+  m_BaseOffset: -0.1
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
 --- !u!114 &1249974591
@@ -4088,7 +4088,7 @@ CapsuleCollider:
   m_Radius: 1
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 1, z: 0}
+  m_Center: {x: 0, y: 1.2, z: 0}
 --- !u!54 &1249974594
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4585,7 +4585,7 @@ NavMeshAgent:
   m_AutoBraking: 1
   m_AutoRepath: 1
   m_Height: 2
-  m_BaseOffset: 0
+  m_BaseOffset: -0.1
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
 --- !u!114 &1275154079
@@ -4654,7 +4654,7 @@ CapsuleCollider:
   m_Radius: 1
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 1, z: 0}
+  m_Center: {x: 0, y: 1.2, z: 0}
 --- !u!54 &1275154082
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5151,7 +5151,7 @@ NavMeshAgent:
   m_AutoBraking: 1
   m_AutoRepath: 1
   m_Height: 2
-  m_BaseOffset: 0
+  m_BaseOffset: -0.1
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
 --- !u!114 &1278200893
@@ -5220,7 +5220,7 @@ CapsuleCollider:
   m_Radius: 1
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 1, z: 0}
+  m_Center: {x: 0, y: 1.2, z: 0}
 --- !u!54 &1278200896
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5308,6 +5308,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2841778040048416570, guid: 0ceb1ac99db004921b955caf1237a163, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841778040052202336, guid: 0ceb1ac99db004921b955caf1237a163, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2841778040059992412, guid: 0ceb1ac99db004921b955caf1237a163, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -5319,6 +5327,38 @@ PrefabInstance:
     - target: {fileID: 2841778040294734489, guid: 0ceb1ac99db004921b955caf1237a163, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841778040399657131, guid: 0ceb1ac99db004921b955caf1237a163, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841778040399657131, guid: 0ceb1ac99db004921b955caf1237a163, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841778040399657131, guid: 0ceb1ac99db004921b955caf1237a163, type: 3}
+      propertyPath: m_CookingOptions
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841778040403408289, guid: 0ceb1ac99db004921b955caf1237a163, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841778040405732841, guid: 0ceb1ac99db004921b955caf1237a163, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841778040405732841, guid: 0ceb1ac99db004921b955caf1237a163, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841778040405732841, guid: 0ceb1ac99db004921b955caf1237a163, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841778040405732841, guid: 0ceb1ac99db004921b955caf1237a163, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 13.24
       objectReference: {fileID: 0}
     - target: {fileID: 2841778040406063285, guid: 0ceb1ac99db004921b955caf1237a163, type: 3}
       propertyPath: m_IsActive
@@ -5350,13 +5390,13 @@ GameObject:
   - component: {fileID: 1608768882}
   - component: {fileID: 1608768881}
   - component: {fileID: 1608768884}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Terrain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!154 &1608768881
 TerrainCollider:
   m_ObjectHideFlags: 0
@@ -5366,7 +5406,7 @@ TerrainCollider:
   m_GameObject: {fileID: 1608768880}
   m_Material: {fileID: 0}
   m_Enabled: 1
-  m_TerrainData: {fileID: 15600000, guid: 3067f4c4673ebb049b67c5cadc9ef499, type: 2}
+  m_TerrainData: {fileID: 15600000, guid: 4a0305678e372704a81fa1dd0cd31226, type: 2}
   m_EnableTreeColliders: 1
 --- !u!218 &1608768882
 Terrain:
@@ -5926,7 +5966,7 @@ NavMeshAgent:
   m_AutoBraking: 1
   m_AutoRepath: 1
   m_Height: 2
-  m_BaseOffset: 0
+  m_BaseOffset: -0.1
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
 --- !u!114 &1702192145
@@ -5995,7 +6035,7 @@ CapsuleCollider:
   m_Radius: 1
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 1, z: 0}
+  m_Center: {x: 0, y: 1.2, z: 0}
 --- !u!54 &1702192148
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6963,7 +7003,7 @@ NavMeshAgent:
   m_AutoBraking: 1
   m_AutoRepath: 1
   m_Height: 2
-  m_BaseOffset: 0
+  m_BaseOffset: -0.1
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
 --- !u!114 &1903329434
@@ -7032,7 +7072,7 @@ CapsuleCollider:
   m_Radius: 1
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 1, z: 0}
+  m_Center: {x: 0, y: 1.2, z: 0}
 --- !u!54 &1903329437
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7529,7 +7569,7 @@ NavMeshAgent:
   m_AutoBraking: 1
   m_AutoRepath: 1
   m_Height: 2
-  m_BaseOffset: 0
+  m_BaseOffset: -0.1
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
 --- !u!114 &1981313291
@@ -7598,7 +7638,7 @@ CapsuleCollider:
   m_Radius: 1
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 1, z: 0}
+  m_Center: {x: 0, y: 1.2, z: 0}
 --- !u!54 &1981313294
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7673,6 +7713,10 @@ PrefabInstance:
     - target: {fileID: 1300709151299589820, guid: 4794e1ac74e59c84f9f67217cadb2e72, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1794789559759921192, guid: 4794e1ac74e59c84f9f67217cadb2e72, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2139566556652181759, guid: 4794e1ac74e59c84f9f67217cadb2e72, type: 3}
       propertyPath: m_IsActive
@@ -7749,6 +7793,10 @@ PrefabInstance:
     - target: {fileID: 2657309791996658835, guid: 4794e1ac74e59c84f9f67217cadb2e72, type: 3}
       propertyPath: m_FontData.m_FontSize
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074431795738917364, guid: 4794e1ac74e59c84f9f67217cadb2e72, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4275889579698898506, guid: 4794e1ac74e59c84f9f67217cadb2e72, type: 3}
       propertyPath: m_Volume
@@ -7930,12 +7978,28 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.5
       objectReference: {fileID: 0}
+    - target: {fileID: 6007649345691916332, guid: 4794e1ac74e59c84f9f67217cadb2e72, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6038672451370083287, guid: 4794e1ac74e59c84f9f67217cadb2e72, type: 3}
       propertyPath: jumpHeld
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6038672451370083287, guid: 4794e1ac74e59c84f9f67217cadb2e72, type: 3}
       propertyPath: bigJumpPressed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6121554955217890103, guid: 4794e1ac74e59c84f9f67217cadb2e72, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6341736292582527050, guid: 4794e1ac74e59c84f9f67217cadb2e72, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8155064968693942561, guid: 4794e1ac74e59c84f9f67217cadb2e72, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8309358125486033737, guid: 4794e1ac74e59c84f9f67217cadb2e72, type: 3}
