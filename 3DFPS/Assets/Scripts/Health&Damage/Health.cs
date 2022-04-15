@@ -319,6 +319,7 @@ public class Health : MonoBehaviour
                     agent.speed = 0;
                     animator.SetTrigger("isDead");
                     gameObject.GetComponent<CapsuleCollider>().enabled = false;
+                    GameManager.instance.IncrementEnemiesDefeated();
                     Destructable.Destroy(this.gameObject, 20);
                 }
                 GameOver();
@@ -337,6 +338,7 @@ public class Health : MonoBehaviour
                 agent.speed = 0;
                 animator.SetTrigger("isDead");
                 gameObject.GetComponent<CapsuleCollider>().enabled = false;
+                GameManager.instance.IncrementEnemiesDefeated();
                 Destructable.Destroy(this.gameObject, 20);
             }
         }      

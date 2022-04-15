@@ -23,6 +23,11 @@ public class GameManager : MonoBehaviour
     [Header("Scores")]
     [Tooltip("The player's score")]
     [SerializeField] private int gameManagerScore = 0;
+    [Tooltip("The number of enemies that must be defeated to win the game")]
+    public int enemiesToDefeat = 1;
+    
+    // The number of enemies defeated in game
+    private int enemiesDefeated = 0;
 
     // Static getter/setter for player score (for convenience)
     public static int score
@@ -177,6 +182,15 @@ public class GameManager : MonoBehaviour
         if (instance != null && instance.uiManager != null)
         {
             instance.uiManager.UpdateUI();
+        }
+    }
+
+    public void IncrementEnemiesDefeated()
+    {
+        enemiesDefeated++;
+        if (enemiesDefeated >= enemiesToDefeat && gameIsWinnable)
+        {
+            LevelCleared();
         }
     }
 

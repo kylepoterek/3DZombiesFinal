@@ -22035,6 +22035,14 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1018228887}
+    - target: {fileID: 4326913308032824140, guid: 4794e1ac74e59c84f9f67217cadb2e72, type: 3}
+      propertyPath: victoryEffect
+      value: 
+      objectReference: {fileID: 1159758296}
+    - target: {fileID: 4326913308032824140, guid: 4794e1ac74e59c84f9f67217cadb2e72, type: 3}
+      propertyPath: enemiesToDefeat
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5059660584240384500, guid: 4794e1ac74e59c84f9f67217cadb2e72, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -22261,7 +22269,9 @@ PrefabInstance:
       objectReference: {fileID: 12800000, guid: c0b59553a03b73f449fe9ca8b0df49b3, type: 3}
     - target: {fileID: 8309358125534827845, guid: 4794e1ac74e59c84f9f67217cadb2e72, type: 3}
       propertyPath: m_Text
-      value: 20
+      value: 'Main Menu
+
+'
       objectReference: {fileID: 0}
     - target: {fileID: 8309358125534827845, guid: 4794e1ac74e59c84f9f67217cadb2e72, type: 3}
       propertyPath: m_FontData.m_Font
@@ -22286,6 +22296,10 @@ PrefabInstance:
     - target: {fileID: 8309358125677635760, guid: 4794e1ac74e59c84f9f67217cadb2e72, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: Level2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8309358125677635762, guid: 4794e1ac74e59c84f9f67217cadb2e72, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8309358125677635767, guid: 4794e1ac74e59c84f9f67217cadb2e72, type: 3}
       propertyPath: m_Color.b
