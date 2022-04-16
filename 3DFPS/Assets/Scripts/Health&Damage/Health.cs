@@ -255,6 +255,7 @@ public class Health : MonoBehaviour
         if (currentHealth <= 0)
         {
             Die();
+            GameManager.AddScore(1);
             return true;
         }
         return false;

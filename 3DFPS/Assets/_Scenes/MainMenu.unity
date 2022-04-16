@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4366756, g: 0.48427194, b: 0.5645252, a: 1}
+  m_IndirectSpecularColor: {r: 0.4366756, g: 0.48427135, b: 0.56452316, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -651,15 +651,26 @@ PrefabInstance:
       value: 'By: Kyle Poterek & Joey Pio
 
 
+        You are stranded in a ghost town.
+        You hear noises in the distanct and hope it''s somebody that could help.
+        All of the sudden, you find that those noises are zombies all around you
+        slowly crawling up to you.
+
+
+        Controls:
+
         WASD to move
 
-        Space to
-        jump
+        Space
+        to jump
 
         Left Click to shoot
 
 
-        Kill all the zombies to win!'
+        Objective:
+
+        Kill all
+        the zombies to win!'
       objectReference: {fileID: 0}
     - target: {fileID: 3312829665204319668, guid: 72b7d2ac07aacf041b598bdb940b78a3, type: 3}
       propertyPath: m_FontData.m_Font

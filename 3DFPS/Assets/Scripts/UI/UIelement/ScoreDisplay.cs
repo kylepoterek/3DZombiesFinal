@@ -24,7 +24,7 @@ public class ScoreDisplay : UIelement
     {
         if (displayText != null)
         {
-            displayText.text = "Killed: " + GameManager.score.ToString() + "/15";
+            displayText.text = "Killed: " + GameManager.score.ToString() + "/20";
         }
     }
 
