@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4366756, g: 0.48427135, b: 0.56452316, a: 1}
+  m_IndirectSpecularColor: {r: 0.4366757, g: 0.48427194, b: 0.5645252, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -224,6 +224,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1248035952550290172, guid: 72b7d2ac07aacf041b598bdb940b78a3, type: 3}
       propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1248035952550290175, guid: 72b7d2ac07aacf041b598bdb940b78a3, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1248035953379965949, guid: 72b7d2ac07aacf041b598bdb940b78a3, type: 3}
@@ -548,7 +552,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2605521050004138403, guid: 72b7d2ac07aacf041b598bdb940b78a3, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -143.43884
       objectReference: {fileID: 0}
     - target: {fileID: 2605521050004138405, guid: 72b7d2ac07aacf041b598bdb940b78a3, type: 3}
       propertyPath: m_Color.b
@@ -652,25 +656,19 @@ PrefabInstance:
 
 
         You are stranded in a ghost town.
-        You hear noises in the distanct and hope it''s somebody that could help.
-        All of the sudden, you find that those noises are zombies all around you
-        slowly crawling up to you.
+        You hear noises in the distance and hope it''s somebody that can help. All
+        of a sudden, you find that those noises are zombies. Kill all the zombies
+        to win!
 
-
-        Controls:
 
         WASD to move
 
-        Space
-        to jump
+        Space to jump
 
-        Left Click to shoot
+        Left Click
+        to shoot
 
-
-        Objective:
-
-        Kill all
-        the zombies to win!'
+'
       objectReference: {fileID: 0}
     - target: {fileID: 3312829665204319668, guid: 72b7d2ac07aacf041b598bdb940b78a3, type: 3}
       propertyPath: m_FontData.m_Font
@@ -686,7 +684,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3312829665204319668, guid: 72b7d2ac07aacf041b598bdb940b78a3, type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 25
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 3312829665204319668, guid: 72b7d2ac07aacf041b598bdb940b78a3, type: 3}
+      propertyPath: m_FontData.m_HorizontalOverflow
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3411299110855958153, guid: 72b7d2ac07aacf041b598bdb940b78a3, type: 3}
       propertyPath: m_FontData.m_Font
@@ -815,6 +817,10 @@ PrefabInstance:
     - target: {fileID: 3895240098347221962, guid: 72b7d2ac07aacf041b598bdb940b78a3, type: 3}
       propertyPath: m_FontData.m_FontSize
       value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 4307901685185435587, guid: 72b7d2ac07aacf041b598bdb940b78a3, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 575
       objectReference: {fileID: 0}
     - target: {fileID: 4532814274411078981, guid: 72b7d2ac07aacf041b598bdb940b78a3, type: 3}
       propertyPath: m_Delegates.Array.size
@@ -946,7 +952,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6614363352943741417, guid: 72b7d2ac07aacf041b598bdb940b78a3, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -203.43884
       objectReference: {fileID: 0}
     - target: {fileID: 6614363352943741423, guid: 72b7d2ac07aacf041b598bdb940b78a3, type: 3}
       propertyPath: m_Color.b
@@ -1332,7 +1338,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 2100000, guid: a73515c59ea58774fa70708c6f636361, type: 2}
+  m_Material: {fileID: 0}
   m_Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
