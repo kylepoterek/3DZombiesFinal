@@ -26010,7 +26010,7 @@ PrefabInstance:
       objectReference: {fileID: 1159758296}
     - target: {fileID: 4326913308032824140, guid: 4794e1ac74e59c84f9f67217cadb2e72, type: 3}
       propertyPath: enemiesToDefeat
-      value: 3
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 5059660584240384500, guid: 4794e1ac74e59c84f9f67217cadb2e72, type: 3}
       propertyPath: m_RootOrder

@@ -255,6 +255,10 @@ public class Health : MonoBehaviour
         if (currentHealth <= 0)
         {
             Die();
+            if(gameObject.tag == "Player")
+            {
+                return true;
+            }
             GameManager.AddScore(1);
             return true;
         }

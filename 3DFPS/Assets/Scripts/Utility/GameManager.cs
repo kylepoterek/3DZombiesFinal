@@ -204,6 +204,7 @@ public class GameManager : MonoBehaviour
     public void LevelCleared()
     {
         PlayerPrefs.SetInt("score", score);
+        ResetScore();
         SetGamePlayerPrefs();
         if (uiManager != null)
         {
