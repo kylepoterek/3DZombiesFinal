@@ -119,7 +119,6 @@ public class GameManager : MonoBehaviour
                 PlayerPrefs.SetInt("lives", playerHealth.currentLives);
             }
 
-            playerHealth.currentLives = PlayerPrefs.GetInt("lives");
 
             // Set health accordingly
             if (PlayerPrefs.GetInt("health") == 0 || resetPlayerPrefsSettings)
