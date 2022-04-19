@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4366757, g: 0.48427194, b: 0.5645252, a: 1}
+  m_IndirectSpecularColor: {r: 0.4366756, g: 0.48427135, b: 0.56452316, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -332,7 +332,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1665123590852241197, guid: 72b7d2ac07aacf041b598bdb940b78a3, type: 3}
       propertyPath: m_Text
-      value: 3D ZOMBIES
+      value: STRANDED
       objectReference: {fileID: 0}
     - target: {fileID: 1665123590852241197, guid: 72b7d2ac07aacf041b598bdb940b78a3, type: 3}
       propertyPath: m_FontData.m_Font
@@ -349,6 +349,10 @@ PrefabInstance:
     - target: {fileID: 1665123590852241197, guid: 72b7d2ac07aacf041b598bdb940b78a3, type: 3}
       propertyPath: m_FontData.m_FontSize
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 1665123590852241199, guid: 72b7d2ac07aacf041b598bdb940b78a3, type: 3}
+      propertyPath: m_Name
+      value: Stranded
       objectReference: {fileID: 0}
     - target: {fileID: 1665123591155456819, guid: 72b7d2ac07aacf041b598bdb940b78a3, type: 3}
       propertyPath: m_Pivot.x
